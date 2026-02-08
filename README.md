@@ -6,7 +6,7 @@ Built using **Python**, **Scikit-Learn**, and **Streamlit**.
 ---
 
 ## 🚀 Live Demo
-👉 [(App Live link)](https://heart-stroke-detection-by-avni.streamlit.app/)
+👉 [(App Live link)](https://heart-disease-prediction-by-avni.streamlit.app/#heart-disease-prediction-by-avni))
 
 ---
 
