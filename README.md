@@ -1,4 +1,4 @@
-# ❤️ Heart Stroke Prediction Web App
+# ❤️Heart Disease Prediction Web App
 
 A machine learning–based web application that predicts the risk of heart disease using patient health parameters.  
 Built using **Python**, **Scikit-Learn**, and **Streamlit**.
