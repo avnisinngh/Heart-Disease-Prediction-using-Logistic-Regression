@@ -6,7 +6,13 @@ model = joblib.load("logistic_Regression_heart.pkl")
 scaler = joblib.load("scaler.pkl")
 expected_columns = joblib.load("columns.pkl")
 
-st.title("Heart Stroke Prediction by Avni 🫀")
+st.info(
+    "⚠️ This application is built for educational purposes only and "
+    "should not be used as a substitute for professional medical advice."
+)
+
+
+st.title("Heart Disease Prediction  by Avni 🫀")
 st.markdown("Provide the following details")
 
 age = st.slider("Age", 18, 100, 40)
@@ -53,3 +59,4 @@ if st.button("Predict"):
         st.error("⚠️ High Risk of Heart Disease")
     else:
         st.success("😮‍💨 Low Risk of Heart Disease")
+
